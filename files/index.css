@@ -1,0 +1,161 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.head{
+    text-align: center;
+    background: radial-gradient(#030300,#1f1f1e);
+    
+}
+.head .fav{
+    width:200px;
+    height:200px;
+}
+
+.hero{
+    height:50%;
+    width:100;
+    background-color: black;
+    
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8px;
+    cursor: pointer;
+}
+
+.logo{
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: auto;
+    margin-left: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+span{
+    color: pink;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 25px;
+    border-left:1px solid white;
+    
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color:cyan;
+    transition: .4s;
+    transform: scale(101%,101%);
+}
+
+#op{
+    margin-right: 20px;  
+}
+
+.btn{
+    background-color: #f9004d;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding:10px 25px;
+    border-radius:30px;
+}
+
+.btn:hover{
+    background-color: hsl(341, 100%, 70%); 
+}
+
+nav ul li .dropdown{
+    display: inline-block;
+}
+
+button{
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+}
+
+nav ul li .dropdown a{
+    display:block;
+    color:aliceblue;
+    text-decoration: none;
+    padding:10px 15px;
+}
+
+nav ul li .dropdown .content{
+    display:none;
+    position: absolute;
+    background-color: #1f1f1e;
+    min-width:100px;
+    box-shadow: 2px 2px 5px black;
+    z-index: 2;
+}
+
+nav ul li .dropdown:hover .content{
+    display:block;
+}
+
+nav ul li .dropdown a:hover{
+    background-color: black;
+}
+
+main{
+    height: 470px;
+    background:url("main.jpg") no-repeat ;
+    background-size: cover;
+    
+    z-index: -1;
+    
+}
+
+main{
+    background: url("/images/main.jpg") no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
+
+.text{
+    text-align: center;
+    color:aliceblue;
+    transform: translateY(300%);
+    font-size: larger;
+
+}
+
+.plans{
+    margin-top: 220px;
+    margin-left: 500px;
+    
+}
+.plans button{
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid rgb(138, 145, 160);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+    margin-right: 50px;
+    color: black;
+    
+}
+
+.plans button:hover{
+    border: 1px solid rgb(255, 255, 255);
+    transform: scale(1.1,1.1);
+}

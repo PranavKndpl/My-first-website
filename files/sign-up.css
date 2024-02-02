@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    display: grid;
+    /* place-items: center; */
+    justify-content: center;
+    background: radial-gradient(#e47200,#ece75f)
+    
+    
+}
+
+#sign{
+    width: 850px;
+    height: 450px;
+    border: 5px solid rgba(8, 7, 7, .3);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,.7);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    overflow: hidden;
+    background-color: transparent;
+    
+    
+}
+
+#pic {
+    
+    width: 45%;
+    height: 100%;
+    background: url("/images/sign.jpg") no-repeat;
+    background-size: cover;
+    
+}
+
+#account {
+    width: 55%;
+    height: 100%;
+    padding: 30px 20px;
+    background-color: aliceblue;
+    display:grid;
+    justify-content: center;
+    align-content: start;
+    
+}
+.input-box{
+    position: relative;
+    margin:8px 0;
+    width:300px;
+    top:5%;
+    
+    
+}
+
+.input-box input{
+    height:35px;
+    width: 100%;
+    border: 2px solid #fcc809;
+    box-shadow: 3px 3px 2px #fcc809;
+    border-radius: 10px;
+    background: transparent;
+    padding-left: 30px;
+    
+
+     
+}
+
+.input-box input::placeholder{
+    color:#fcc809; 
+}
+
+.input-box i{
+    position: absolute;
+    top: 8px;
+    justify-content:left;
+    right:275px;
+    color:#fcc809;
+    /* text-shadow: 1px 1px 1px #fcc809; */
+}
+
+#account .btn1{
+    position: relative;
+    border:none;
+    border-radius: 30px;
+    top:25px;
+    height:37px;
+    width:100%;
+    font-weight: 700;
+    background: linear-gradient(to right,#e47200,#ece75f)
+
+}
+
+#account .other-options{
+   
+    margin-top: 35px;
+    font-size: 11px;
+    text-align: center;
+    
+    background: linear-gradient(to right,#e47200,#ece75f);
+    background-clip: text;
+    color:transparent;
+
+}
+
+#account #btn2{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width:180px;
+    top: 5px;
+    left: 65px;
+    
+    
+    
+}
+
+#account #btn2 .other{
+    border:1px solid black;
+    background: transparent;
+    padding: 5px 5px;   
+}
+
+#account .sign-in{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 800;
+    background: linear-gradient(to right,#e47200,rgb(241, 194, 99));
+    background-clip: text;
+    color:transparent;
+}
+
+#account .sign-in a{
+    text-decoration: none;
+    color:rgb(240, 204, 132);
+    font-weight: 800;
+}
+
+.input-box input:hover{
+    transform: scaleY(110%);
+}
+
+#account .btn1:hover{
+    box-shadow: 3px 3px 7px #ece75f;
+    transform: scale(110%,110%);
+}
+
+#account #btn2 .other:hover{
+    transform: scale(103%,103%);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+
+}
+
+#account .sign-in a:hover{
+    text-decoration: underline;
+    text-decoration-color:#e47200;
+}
